@@ -1,0 +1,4 @@
+input[type="date"].custom-date-icon::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+  

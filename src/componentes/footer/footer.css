@@ -1,0 +1,76 @@
+.footer {
+    background-color: #121212;
+    border-top: 2px solid #f4f4f4;
+}
+
+.logo{  
+     height: flex;
+     margin-bottom: 1rem;
+     width: 80px;
+     margin-top: 20px;
+}
+
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    height:50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url("./../../../public/imgs/facebook.png");
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover{
+ background-color: #121212;
+ filter:invert(1)
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url("./../../../public/imgs/instagram.png");
+}
+
+.social-icon:nth-of-type(3){
+    background-image: url("./../../../public/imgs/whatsapp.png");
+}
+
+.social-icon:nth-of-type(4){
+    background-image: url("./../../../public/imgs/tiktok.png");
+}
+
+.footer-menu-container{
+    list-style-type: none;
+    color: #f2f2f2;
+    font-size: 18px;
+
+}
+
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-item:hover{
+    opacity: 1;
+}
+
+.copyright{
+    opacity: 0.4;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
